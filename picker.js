@@ -51,3 +51,9 @@ document.getElementById("thumbsup").addEventListener("click", function() {
         backgroundPage.thumbsUp();
     });
 }, false);
+
+document.getElementById("smile").addEventListener("click", function() {
+    chrome.runtime.getBackgroundPage(function(backgroundPage) {
+        backgroundPage.smile();
+    });
+}, false);

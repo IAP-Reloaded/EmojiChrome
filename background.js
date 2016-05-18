@@ -55,3 +55,9 @@ function thumbsUp() {
       path : "/emoji/thumbsup.png"
     });
 }
+
+function smile() {
+    chrome.browserAction.setIcon({
+      path : "/emoji/smile.png"
+    });
+}
