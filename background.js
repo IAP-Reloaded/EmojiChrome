@@ -31,3 +31,27 @@ function winkyTongue() {
       path : "/emoji/winkytongue.png"
     });
 }
+
+function poop() {
+    chrome.browserAction.setIcon({
+      path : "/emoji/poop.png"
+    });
+}
+
+function chromeIcon() {
+    chrome.browserAction.setIcon({
+      path : "/emoji/chrome.png"
+    });
+}
+
+function foldedHands() {
+    chrome.browserAction.setIcon({
+      path : "/emoji/foldedHands.png"
+    });
+}
+
+function thumbsUp() {
+    chrome.browserAction.setIcon({
+      path : "/emoji/thumbsup.png"
+    });
+}

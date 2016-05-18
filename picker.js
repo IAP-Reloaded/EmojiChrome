@@ -27,3 +27,27 @@ document.getElementById("winkytongue1").addEventListener("click", function() {
         backgroundPage.winkyTongue();
     });
 }, false);
+
+document.getElementById("poop").addEventListener("click", function() {
+    chrome.runtime.getBackgroundPage(function(backgroundPage) {
+        backgroundPage.poop();
+    });
+}, false);
+
+document.getElementById("chrome").addEventListener("click", function() {
+    chrome.runtime.getBackgroundPage(function(backgroundPage) {
+        backgroundPage.chromeIcon();
+    });
+}, false);
+
+document.getElementById("foldedhands").addEventListener("click", function() {
+    chrome.runtime.getBackgroundPage(function(backgroundPage) {
+        backgroundPage.foldedHands();
+    });
+}, false);
+
+document.getElementById("thumbsup").addEventListener("click", function() {
+    chrome.runtime.getBackgroundPage(function(backgroundPage) {
+        backgroundPage.thumbsUp();
+    });
+}, false);
